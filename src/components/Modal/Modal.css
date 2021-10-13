@@ -1,0 +1,164 @@
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 768px;
+	height: 844px;
+
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__content {
+	position: relative;
+	display: flex;
+	width: 619px;
+	height: 425px;
+	left: 74px;
+	top: 181px;
+	padding-top: 30px;
+
+	background: #ffffff;
+}
+
+.image-form {
+	display: flex;
+	flex-direction: column;
+	width: 375px;
+}
+
+
+.comments {
+	display: block;
+}
+
+.close {
+	position: absolute;
+	right: 21px;
+	top: 21px;
+	width: 26px;
+	height: 26px;
+	font-size: 26px;
+	font-family: Arial;
+	cursor: pointer;
+}
+
+.modal__image {
+	display: block;
+	margin-left: 30px;
+	margin-bottom: 29px;
+	width: 331px;
+	height: 205px;
+}
+
+.input {
+	display: block;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 332px;
+	height: 30px;
+	border: 1px inset #CCCCCC;
+	border-radius: 3px;
+}
+
+button {
+	width: 332px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 19px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+
+	background: #4997D0;
+	border-radius: 3px;
+}
+
+.comment-date {
+	width: 66px;
+	height: 15px;
+	margin: 0;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	
+	color: #999999;
+}
+
+.comment-text {
+	position: absolute;
+	width: 92px;
+	height: 15px;
+	margin-top: 5px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	
+	color: #000000;
+}
+
+@media (max-width: 320px) {
+	.modal {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 320px;
+		height: 1400px;
+	
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+
+	.modal__content {
+		position: fixed;
+		display: flex;
+		width: 320px;
+		height: 537px;
+		left: 0;
+		top: 0;
+		padding-top: 0;
+	
+		background: #ffffff;
+	}
+
+	.modal__image {
+		display: block;
+		margin-left: 0;
+		margin-bottom: 29px;
+		width: 320px;
+		height: 205px;
+	}
+	
+	.input {
+		display: block;
+		margin-left: 22px;
+		margin-top: 20px;
+		width: 276px;
+		height: 30px;
+		border: 1px inset #CCCCCC;
+		border-radius: 3px;
+	}
+	
+	button {
+		width: 276px;
+		height: 30px;
+		margin-left: 22px;
+		margin-top: 19px;
+		color: #ffffff;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		line-height: 15px;
+	
+		background: #4997D0;
+		border-radius: 3px;
+	}
+}

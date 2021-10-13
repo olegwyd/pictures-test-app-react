@@ -1,38 +1,113 @@
+body {
+	background-color:#E5E5E5;
+}
+
 .App {
-  text-align: center;
+	position: relative;
+	width: 768px;
+	height: 828px;
+	background: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_header {
+	padding: 0;
+	margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+	position: relative;
+	width: 233px;
+	height: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Roboto Condensed;
+	font-size: 36px;
+	line-height: 42px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image {
+	width: 229px;
+	height: 142px;
+	margin-left: 20px;
+	margin-top: 30px;
+	cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.hr{
+	position: absolute;
+	width: 728px;
+	height: 0px;
+	bottom: 56px;
+	left: 20px;
+
+	border: 1px solid #CCCCCC;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer_years {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: uppercase;
+	left: 327px;
+	right: 327px;
+	bottom: 11px;
+
+	color: #CCCCCC;
+}
+
+@media (max-width: 320px) {
+	.App {
+		position: relative;
+		width: 320px;
+		height: 1400px;
+		background: #FFFFFF;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 15px;
+	}
+
+	.image {
+		width: 280px;
+		height: 171px;
+	}
+	.footer_years {
+		position: absolute;
+		left: 123px;
+		bottom: 11.1px;
+		width: 100px;
+		
+		font-family: Roboto Condensed;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		text-transform: uppercase;
+		
+		color: #CCCCCC;
+	}
+	.hr{
+		position: absolute;
+		width: 280px;
+		height: 0px;
+		bottom: 56px;
+		left: 20px;
+	
+		border: 1px solid #CCCCCC;
+	}
 }
