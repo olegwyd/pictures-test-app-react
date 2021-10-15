@@ -1,0 +1,53 @@
+.input {
+	display: block;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 332px;
+	height: 30px;
+	border: 1px inset #CCCCCC;
+	border-radius: 3px;
+}
+
+button {
+	width: 332px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 19px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+
+	background: #4997D0;
+	border-radius: 3px;
+}
+
+@media (max-width: 320px) {
+	.input {
+		display: block;
+		margin-left: 22px;
+		margin-top: 20px;
+		width: 276px;
+		height: 30px;
+		border: 1px inset #CCCCCC;
+		border-radius: 3px;
+	}
+	
+	button {
+		width: 276px;
+		height: 30px;
+		margin-left: 22px;
+		margin-top: 19px;
+		color: #ffffff;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		line-height: 15px;
+	
+		background: #4997D0;
+		border-radius: 3px;
+	}
+}

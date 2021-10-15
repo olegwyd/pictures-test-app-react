@@ -1,0 +1,36 @@
+.comments {
+	display: block;
+}
+
+.comment-date {
+	width: 66px;
+	height: 15px;
+	margin: 0;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	
+	color: #999999;
+}
+
+.comment-text {
+	position: absolute;
+	width: 92px;
+	height: 15px;
+	margin-top: 5px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 15px;
+	
+	color: #000000;
+}
+
+@media (max-width: 320px) {
+	
+}

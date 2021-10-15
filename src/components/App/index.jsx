@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import Modal from './components/Modal/Modal';
-import { fetchImages } from './store/actions/images';
-
-import { fetchImageData } from './store/actions/activeImageData';
+import Modal from '../Modal';
+import { fetchImages } from '../../store/actions/images';
+import { fetchImageData } from '../../store/actions/activeImageData';
 import './App.css';
 
 function App() {

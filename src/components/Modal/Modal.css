@@ -26,9 +26,12 @@
 	width: 375px;
 }
 
-
-.comments {
+.modal__image {
 	display: block;
+	margin-left: 30px;
+	margin-bottom: 29px;
+	width: 331px;
+	height: 205px;
 }
 
 .close {
@@ -42,68 +45,7 @@
 	cursor: pointer;
 }
 
-.modal__image {
-	display: block;
-	margin-left: 30px;
-	margin-bottom: 29px;
-	width: 331px;
-	height: 205px;
-}
 
-.input {
-	display: block;
-	margin-left: 30px;
-	margin-top: 20px;
-	width: 332px;
-	height: 30px;
-	border: 1px inset #CCCCCC;
-	border-radius: 3px;
-}
-
-button {
-	width: 332px;
-	height: 30px;
-	margin-left: 30px;
-	margin-top: 19px;
-	color: #ffffff;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 15px;
-
-	background: #4997D0;
-	border-radius: 3px;
-}
-
-.comment-date {
-	width: 66px;
-	height: 15px;
-	margin: 0;
-	
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 15px;
-	
-	color: #999999;
-}
-
-.comment-text {
-	position: absolute;
-	width: 92px;
-	height: 15px;
-	margin-top: 5px;
-	
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 15px;
-	
-	color: #000000;
-}
 
 @media (max-width: 320px) {
 	.modal {
@@ -134,31 +76,5 @@ button {
 		margin-bottom: 29px;
 		width: 320px;
 		height: 205px;
-	}
-	
-	.input {
-		display: block;
-		margin-left: 22px;
-		margin-top: 20px;
-		width: 276px;
-		height: 30px;
-		border: 1px inset #CCCCCC;
-		border-radius: 3px;
-	}
-	
-	button {
-		width: 276px;
-		height: 30px;
-		margin-left: 22px;
-		margin-top: 19px;
-		color: #ffffff;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 13px;
-		line-height: 15px;
-	
-		background: #4997D0;
-		border-radius: 3px;
 	}
 }
